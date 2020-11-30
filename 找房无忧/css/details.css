@@ -1,0 +1,318 @@
+.swiper-box {
+  position: relative;
+  width: 100%;
+}
+.swiper-box img {
+  width: 100%;
+  height: 200rem;
+}
+.swiper-box .swiper-pagination {
+  width: 45rem;
+  height: 26rem;
+  line-height: 24rem;
+  font-size: 15rem;
+  position: absolute;
+  left: 270rem;
+  right: 11rem;
+  border-radius: 15rem;
+  color: aliceblue;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.prs {
+  background-color: #fff;
+  padding: 20rem;
+}
+.prs h1 {
+  font-size: 17rem;
+}
+.prs p {
+  font-size: 12rem;
+  margin: 16rem 0 16rem 0;
+  color: slategray;
+}
+.prs p > span:nth-child(1) {
+  color: #dd2a2d;
+}
+.prs p > span:nth-child(2) {
+  float: right;
+}
+.prs p > span:nth-child(2) img {
+  width: 13rem;
+}
+.prs .sp {
+  display: flex;
+}
+.prs .sp span {
+  font-size: 12rem;
+  display: flex;
+  padding: 8rem 5rem 8rem 5rem ;
+  background-color: #e9f0f5;
+  margin-right: 10rem;
+  color: slategray;
+}
+.cfy {
+  margin-top: 14rem;
+  background-color: #fff;
+  padding: 20rem;
+}
+.cfy > ul li {
+  display: flex;
+}
+.cfy > ul li span {
+  font-size: 12rem;
+  padding: 20rem 0 20rem 0;
+  flex: 1;
+  border-bottom: 1rem solid #cecece;
+}
+.cfy > ul .me {
+  padding: 20rem 0 5rem 0;
+  align-items: center;
+  justify-content: center;
+  color: #cecece;
+}
+.feature {
+  margin-top: 14rem;
+  background-color: #fff;
+  padding: 20rem;
+}
+.feature > h3 {
+  font-size: 16rem;
+  padding-bottom: 20rem;
+  color: #FFA126;
+  border-bottom: 1rem solid #cecece;
+}
+.feature > div {
+  line-height: 30rem;
+  padding: 20rem 0 20rem 0;
+  font-size: 12rem;
+}
+.feature > p {
+  display: flex;
+  padding: 20rem 0 5rem 0;
+  align-items: center;
+  justify-content: center;
+  color: #cecece;
+}
+.sry {
+  margin-top: 14rem;
+  background-color: #fff;
+  padding: 20rem;
+}
+.sry > h3 {
+  font-size: 16rem;
+  padding-bottom: 20rem;
+  color: #FFA126;
+  border-bottom: 1rem solid #cecece;
+}
+.sry > ul li {
+  height: 118rem;
+  display: flex;
+}
+.sry > ul li > div:nth-child(1) {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sry > ul li > div:nth-child(1) img {
+  width: 70rem;
+}
+.sry > ul li > div:nth-child(2) {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sry > ul li > div:nth-child(2) > h6 {
+  font-size: 12rem;
+  margin-bottom: 10rem;
+}
+.sry > ul li > div:nth-child(2) > p {
+  font-size: 12rem;
+  margin-bottom: 10rem;
+}
+.sry > ul li > div:nth-child(2) > p:nth-child(3) {
+  font-size: 12rem;
+  display: flex;
+}
+.sry > ul li > div:nth-child(2) > p:nth-child(3) span {
+  margin-right: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F4F7F9;
+}
+.shool {
+  margin-top: 14rem;
+  background-color: #fff;
+  padding: 20rem;
+}
+.shool > h3 {
+  font-size: 16rem;
+  padding-bottom: 20rem;
+  border-bottom: 1rem solid #cecece;
+}
+.shool > ul li {
+  display: flex;
+}
+.shool > ul li span {
+  font-size: 12rem;
+  padding: 20rem 0 20rem 0;
+  flex: 1;
+  border-bottom: 1rem solid #cecece;
+}
+.shool > ul .me {
+  padding: 20rem 0 5rem 0;
+  align-items: center;
+  justify-content: center;
+}
+.shool > ul .ck {
+  padding: 20rem 0 5rem 0;
+  align-items: center;
+  justify-content: center;
+  color: #cecece;
+}
+.gps {
+  margin-top: 14rem;
+  background-color: #fff;
+  padding: 20rem;
+}
+.gps > h3 {
+  font-size: 16rem;
+  padding-bottom: 20rem;
+  border-bottom: 1rem solid #cecece;
+}
+.gps .map {
+  height: 200rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gps .map #container {
+  overflow: hidden;
+  width: 280rem;
+  height: 155rem;
+  margin: 0;
+  font-family: "微软雅黑";
+}
+.hot {
+  margin-top: 14rem;
+  background-color: #fff;
+  padding: 20rem;
+}
+.hot > h3 {
+  font-size: 16rem;
+  padding-bottom: 20rem;
+  border-bottom: 1rem solid #cecece;
+}
+.hot ul {
+  background-color: #fff;
+}
+.hot ul li {
+  display: flex;
+  overflow: hidden;
+  border-bottom: 1rem solid #787A79;
+  flex-wrap: wrap;
+}
+.hot ul li > div:nth-child(1) {
+  padding: 10rem 10rem 10rem 0;
+  width: 80rem;
+}
+.hot ul li > div:nth-child(1) img {
+  width: 100%;
+}
+.hot ul li > div:nth-child(2) {
+  padding: 10rem;
+  width: 170rem;
+  display: flex;
+  flex-direction: column;
+}
+.hot ul li > div:nth-child(2) h2 {
+  font-size: 15rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+  flex: 1;
+}
+.hot ul li > div:nth-child(2) p {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  flex: 1;
+}
+.hot ul li > div:nth-child(2) > p:nth-child(2) > .jg1 {
+  position: absolute;
+  right: 0;
+  font-size: 14rem;
+  color: #E8AA5A;
+}
+.hot ul li > div:nth-child(2) > p:nth-child(3) {
+  color: #787A79;
+}
+.hot ul li > div:nth-child(2) > p:nth-child(3) > .jg {
+  position: absolute;
+  right: 0;
+  font-size: 14rem;
+}
+.hot ul li > div:nth-child(2) > p:nth-child(4) {
+  color: #787A79;
+}
+.hot ul li > div:nth-child(2) > p:nth-child(4) span {
+  margin-right: 10rem;
+  display: flex;
+  background-color: #94e0ee;
+}
+.hot ul li .tj {
+  position: relative;
+  margin-bottom: 14rem;
+  background-color: #F2F2F2;
+  width: 100%;
+  padding: 13rem 0 13rem 10rem;
+  border-radius: 10rem;
+}
+.hot ul li .tj .top {
+  margin-top: 20rem;
+  display: block;
+  position: absolute;
+  top: -40rem;
+  left: 20rem;
+  border: 10rem solid red;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: #F2F2F2;
+}
+.hot ul .ck-a {
+  border-bottom: 0;
+  padding: 20rem 0 5rem 0;
+  align-items: center;
+  justify-content: center;
+  color: #cecece;
+}
+.broker {
+  padding: 9rem 0rem 0 20rem;
+  display: flex;
+}
+.broker > div {
+  width: 200rem;
+  height: 40rem;
+  background-color: #FF8A00;
+  border-radius: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 12rem;
+}
+.broker span {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: royalblue;
+  color: #666666;
+  background: url(../image/SecondHandList/xin.png) 16rem 11rem no-repeat;
+  background-size: 21rem auto;
+}

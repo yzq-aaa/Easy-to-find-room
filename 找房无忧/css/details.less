@@ -1,0 +1,346 @@
+.swiper-box{
+   position: relative; 
+    width: 100%;
+    img{
+        width: 100%;
+        height: 200rem;
+    }
+    .swiper-pagination{
+        width: 45rem;
+        height: 26rem;
+        line-height: 24rem;
+        font-size: 15rem;
+        position: absolute;
+        left: 270rem;
+        right: 11rem;
+        border-radius: 15rem;
+        color: aliceblue;
+        background-color: rgba(0, 0, 0, .5);
+    }
+   
+}
+
+
+.prs{
+    background-color: #fff;
+    padding: 20rem;
+    h1{
+        font-size: 17rem;
+    }
+    p{
+        font-size: 12rem;
+        margin: 16rem 0 16rem 0;
+        color: slategray;
+        &>span:nth-child(1){
+            color:#dd2a2d;
+        }
+        &>span:nth-child(2){
+            float: right;
+            img{
+                width: 13rem;
+            }
+        }
+
+    }
+    .sp{
+        display: flex;
+        span{
+            font-size: 12rem;
+            display: flex;
+            padding:8rem 5rem 8rem 5rem ;
+            background-color: #e9f0f5;
+            margin-right: 10rem;
+            color: slategray;
+        }
+    }
+} 
+.cfy{
+    margin-top: 14rem;
+    background-color: #fff;
+    padding: 20rem;
+    &>ul{
+        li{
+            display: flex;
+            span{
+                font-size: 12rem;
+               padding: 20rem 0 20rem 0;
+               flex: 1;
+               border-bottom: 1rem solid #cecece;
+            }
+        }
+        .me{
+            padding: 20rem 0 5rem 0;
+            align-items: center;
+            justify-content: center;
+            color: #cecece;
+        }
+    }
+}
+.feature{
+    margin-top: 14rem;
+    background-color: #fff;
+    padding: 20rem;
+    &>h3{
+        font-size: 16rem;
+        padding-bottom: 20rem;
+        color: #FFA126;
+        border-bottom: 1rem solid #cecece;
+    }
+    &>div{
+        line-height: 30rem;
+        padding: 20rem 0 20rem 0;
+        font-size: 12rem;
+    }
+    &>p{
+        display: flex;
+        padding: 20rem 0 5rem 0;
+        align-items: center;
+        justify-content: center;
+        color: #cecece;
+    }
+}
+// 户型分间
+.sry{
+    margin-top: 14rem;
+    background-color: #fff;
+    padding: 20rem; 
+    &>h3{
+        font-size: 16rem;
+        padding-bottom: 20rem;
+        color: #FFA126;
+        border-bottom: 1rem solid #cecece;
+    }
+    &>ul{
+        li{
+            height: 118rem;
+            display: flex;
+            &>div:nth-child(1){
+                flex: 1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                img{
+                   width: 70rem;
+                }
+            }
+            &>div:nth-child(2){
+                flex: 2;
+                display: flex;
+                flex-direction: column;
+                // align-items: center;
+                justify-content: center;
+                &>h6{
+                    font-size: 12rem;
+                    margin-bottom: 10rem;
+                }
+                &>p{
+                    font-size: 12rem;
+                    margin-bottom: 10rem;
+                }
+                &>p:nth-child(3){
+                    font-size: 12rem;
+                    display: flex;
+                    span{
+                        margin-right: 10rem;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        background-color: #F4F7F9;
+                    }
+                }
+            }
+        }
+    }
+}
+// 对口学校
+.shool{
+    margin-top: 14rem;
+    background-color: #fff;
+    padding: 20rem; 
+    &>h3{
+        font-size: 16rem;
+        padding-bottom: 20rem;
+    
+        border-bottom: 1rem solid #cecece;
+    }
+    &>ul{
+        li{
+            display: flex;
+            span{
+                font-size: 12rem;
+               padding: 20rem 0 20rem 0;
+               flex: 1;
+               border-bottom: 1rem solid #cecece;
+            }
+        }
+        .me{
+            padding: 20rem 0 5rem 0;
+            align-items: center;
+            justify-content: center;
+        }
+        .ck{
+            padding: 20rem 0 5rem 0;
+            align-items: center;
+            justify-content: center;
+            color: #cecece;
+        }
+}
+}
+// 地图
+.gps{
+    margin-top: 14rem;
+    background-color: #fff;
+    padding: 20rem; 
+    &>h3{
+        font-size: 16rem;
+        padding-bottom: 20rem;
+        border-bottom: 1rem solid #cecece;
+    }
+    .map{
+        height: 200rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        #container {
+            overflow: hidden;
+            width: 280rem;
+            height: 155rem;
+            margin: 0;
+            font-family: "微软雅黑";
+        }
+    }
+}
+// 推荐房源
+.hot{
+    margin-top: 14rem;
+    background-color: #fff;
+    padding: 20rem; 
+    &>h3{
+        font-size: 16rem;
+        padding-bottom: 20rem;
+        border-bottom: 1rem solid #cecece;
+    }
+    ul{
+        background-color: #fff;
+        li{
+          display: flex;
+          overflow: hidden;
+          border-bottom: 1rem solid #787A79;
+          flex-wrap: wrap;
+          &>div:nth-child(1){
+           padding: 10rem 10rem 10rem 0;
+           width: 80rem;
+           img{   
+               width:100%;
+           }
+          }
+          &>div:nth-child(2){
+            padding: 10rem;
+            width: 170rem;  
+            display: flex;
+            flex-direction: column;
+            h2{ 
+                font-size: 15rem;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                width: 100%;
+                flex: 1;
+            }
+            p{   
+                position: relative;
+                width: 100%;
+                display: flex;
+                align-items: flex-end;
+                flex: 1;
+            }
+            &>p:nth-child(2){
+                &>.jg1{
+                   position: absolute;
+                   right: 0;
+                   font-size: 14rem;
+                   color: #E8AA5A;
+                }
+            }
+            &>p:nth-child(3){
+                color: #787A79;
+                &>.jg{
+                   position: absolute;
+                   right: 0;
+                   font-size: 14rem;
+                }
+            }
+            &>p:nth-child(4){
+                color: #787A79;
+                span{
+                    margin-right: 10rem;
+                    display: flex;
+                    background-color:#94e0ee;
+                }
+            }
+           
+          }
+          .tj{
+              position: relative;
+              margin-bottom: 14rem;
+              background-color: #F2F2F2;
+              width: 100%;
+              padding: 13rem 0 13rem 10rem;
+              border-radius: 10rem;
+              .top{
+                  
+                  margin-top: 20rem;
+                  display: block;
+                //   background-color: aqua;
+                  position: absolute;
+                  top: -40rem;
+                  left: 20rem;
+                //   width: 15rem;
+                //   height: 15rem;
+                border:10rem solid red;
+                border-top-color:transparent;
+                border-left-color:transparent;
+                border-right-color:transparent;
+                border-bottom-color:#F2F2F2;
+                
+              }
+          }
+        }
+        .ck-a{
+            border-bottom: 0;
+            padding: 20rem 0 5rem 0;
+            align-items: center;
+            justify-content: center;
+            color: #cecece;
+        }
+    }
+   
+}
+
+// 经纪人
+.broker{
+   padding: 9rem 0rem 0 20rem;
+   display: flex;
+   &>div{
+       width: 200rem;
+       height: 40rem;
+       background-color: #FF8A00;
+       border-radius: 5rem;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       color: #fff;
+       font-size: 12rem;
+   }
+   span{
+       flex: 1;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       background-color: royalblue;
+       color: #666666;
+       background: url(../image/SecondHandList/xin.png) 16rem 11rem no-repeat;
+       background-size: 21rem auto;
+       
+   }
+}

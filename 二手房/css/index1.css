@@ -1,0 +1,310 @@
+body{
+  position: relative;
+}
+.bor {
+    width: 100%;
+  }
+  .bor .pt1 {
+    position: relative;
+    margin: 20rem;
+    height: 36rem;
+  }
+  .bor .pt1 input {
+    outline: none;
+    padding-left: 10rem;
+    width: 95%;
+    height: 100%;
+    border: 1rem solid #afaeae;
+  }
+  .bor .pt1 span {
+    display: block;
+    width: 30rem;
+    height: 30rem;
+    background: url(../image/SecondHandList/search_03.png) 8rem 2rem no-repeat;
+    background-size: 70%;
+    position: absolute;
+    top: 4rem;
+    right: 13rem;
+    border-left: 1rem solid #909090;
+  }
+  .area {
+    border-bottom: 1rem solid #909090;
+    background-color: #fff;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+  }
+
+.top{
+margin-top: 20rem;
+display: block;
+position: absolute;
+top: -16rem;
+left: 54rem;
+border:5rem solid red;
+border-top-color:#909090;
+border-left-color:transparent;
+border-right-color:transparent;
+border-bottom-color:transparent;
+}
+.botton{             
+  margin-top: 20rem;
+  display: block;
+  position: absolute;
+  top: -22rem;
+  left: 54rem;
+border:5rem solid red;
+border-top-color:transparent;
+border-left-color:transparent;
+border-right-color:transparent;
+border-bottom-color:#FE8902;
+
+}
+
+  .area p {
+    position: relative;
+    font-size: 15rem;
+    color: #909090;
+    margin: 10rem 0 10rem 0;
+    flex: 1;
+    text-align: center;
+    border-right: 1rem solid #909090;
+  }
+  .area p span {
+    margin-left: 10rem;
+  }
+  .area > p:nth-child(4) {
+    border: 0;
+  }
+  .area .rad {
+    color: #FE8902;
+  }
+  .hot1 {
+    position: relative;
+    width: 100%;
+  }
+  .hot1 .mc {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .hot1 > ul {
+    background-color: #fff;
+    width: 100%;
+  }
+  .hot1 > ul > li {
+    margin: 0 10rem 0 10rem;
+    display: flex;
+    width: 95%;
+    overflow: hidden;
+    border-bottom: 1rem solid #787A79;
+  }
+  .hot1 > ul > li > div:nth-child(1) {
+    padding: 10rem;
+    flex: 1;
+  }
+  .hot1 > ul > li > div:nth-child(1) img {
+    width: 100%;
+  }
+  .hot1 > ul > li > div:nth-child(2) {
+    padding: 10rem;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+  }
+  .hot1 > ul > li > div:nth-child(2) h2 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 15rem;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    flex: 1;
+  }
+  .hot1 > ul > li > div:nth-child(2) p {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    flex: 1;
+  }
+  .hot1 > ul > li > div:nth-child(2) > p:nth-child(3) {
+    color: #787A79;
+  }
+  .hot1 > ul > li > div:nth-child(2) > p:nth-child(3) > .qn {
+    position: absolute;
+    right: 0;
+    font-size: 14rem;
+    color: #E8AA5A;
+  }
+  .hot1 > ul > li > div:nth-child(2) > p:nth-child(4) {
+    color: #787A79;
+  }
+  .hot1 .zone {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1rem solid #afaeae;
+  }
+  .hot1 .zone > ul {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+  }
+  .hot1 .zone > ul > li {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  .hot1 .zone > ul > li p {
+    font-size: 14rem;
+    text-align: center;
+    padding: 9.5rem;
+  }
+  .hot1 .zone > ul > li>a {
+    margin: 0;
+    /* border: 2rem solid red; */
+    border: none;
+    font-size: 14rem;
+    padding: 10rem;
+    text-align: center;
+    background-color: #fff;
+  }
+  .hot1 .zone > ul > li .one {
+    border-right: 0;
+    background-color: #fff;
+  }
+  .hot1 .zone > ul > li:nth-child(1) {
+    background-color: #F0F0F0;
+  }
+  .hot1 .price {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1rem solid #afaeae;
+  }
+  .hot1 .price > p {
+    background-color: #fff;
+    width: 95%;
+    padding: 10rem;
+    font-size: 14rem;
+    border-bottom: 1rem solid #afaeae;
+  }
+  .hot1 .price > p span {
+    margin: 0 5rem 0 10rem;
+    padding: 0 5rem 0 5rem;
+    font-size: 12rem;
+    color: #909090;
+    background-color: #e9e4e4;
+  }
+  /* .hot1 .price >input{
+    width: 15rem;
+    height: 15rem;
+  } */
+  .hot1 .ht {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1rem solid #afaeae;
+  }
+  .hot1 .ht p {
+    background-color: #fff;
+    width: 95%;
+    padding: 10rem;
+    font-size: 14rem;
+    border-bottom: 1rem solid #afaeae;
+  }
+  .hot1 .ht .confirm {
+    color: #fff;
+    background-color: #FE8902;
+    text-align: center;
+  }
+  .hot1 .more {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1rem solid #afaeae;
+  }
+  .hot1 .more > ul {
+    width: 100%;
+  }
+  .hot1 .more > ul li {
+    background-color: #fff;
+    width: 100%;
+    padding-bottom: 20rem;
+    border-bottom: 2rem solid #afaeae;
+    font-size: 14rem;
+  }
+  .hot1 .more > ul li h6 {
+    font-size: 14rem;
+    padding: 10rem;
+  }
+  .hot1 .more > ul li > div {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .hot1 .more > ul li > div span {
+    display: flex;
+    width: 78rem;
+    height: 25rem;
+    justify-content: center;
+    align-items: center;
+    color: #787A79;
+    border: 1rem solid #787A79;
+    margin: 5rem;
+  }
+/* 广告 */
+.advertising{
+  position: fixed;
+  top: 100%;
+  left: 0;
+  margin-top: -40rem;
+  width: 100%;
+  height: 40rem;
+  display: flex
+  
+}
+.advertising .seek{
+  background:url(../image/index/close.png)  no-repeat;
+  background-size: 14rem auto;
+  position: relative;
+  width:213rem;
+  height: 40rem;
+  background-color: rgba(0, 0, 0, 0.3)
+  
+}
+.advertising .seek>p:nth-child(2){
+  font-size: 16rem;
+
+}
+ .seek p{
+  /* font-size: 11rem; */
+  padding-left: 83rem;
+  color: #fff;
+}
+
+.advertising .seek>img{
+  width: 30rem;
+  position: absolute;
+  top: 6rem;
+  left: 32rem;
+}
+.advertising>div:nth-child(2){
+  flex: 1;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  background-color: #FF8A00;
+  color: #fff;
+}
+

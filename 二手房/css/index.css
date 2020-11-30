@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 12rem;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #656565;
+}
+body {
+  width: 100%;
+  background: #F2F7F3;
+}
+header {
+  overflow: hidden;
+  width: 100%;
+  background-color: #FF8A00;
+}
+header > img:nth-child(1) {
+  width: 98rem;
+  margin: 7rem  0rem 7rem 10rem;
+  float: left;
+}
+header > img:nth-child(2) {
+  margin: 7rem 10rem 7rem 10rem;
+  height: 29rem;
+  float: right;
+}
+header > img:nth-child(3) {
+  margin: 7rem 10rem 7rem 10rem;
+  height: 29rem;
+  float: right;
+}
+footer {
+  width: 100%;
+  background-color: #2F3130;
+}
+footer > a {
+  display: block;
+  width: 94%;
+  font-size: 12rem;
+  margin: 10rem;
+  padding: 8rem 0 8rem 0;
+  color: #787A79;
+  border-bottom: 1rem solid #656565;
+}
+footer div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+footer div span {
+  font-size: 10rem;
+  color: #787A79;
+  display: block;
+  background: #fff;
+  margin: 0 20rem 0 30rem;
+  padding: 10rem 0 10rem 40rem;
+}
+footer div > span:nth-child(1) {
+  background: url(../image/index/apple.png) 0 9rem no-repeat;
+  background-size: auto 60%;
+}
+footer div > span:nth-child(2) {
+  background: url(../image/index/android.png) 0 9rem no-repeat;
+  background-size: auto 60%;
+}
+footer p {
+  color: #787A79;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 10rem;
+}
+footer > p:nth-child(3) {
+  font-size: 12rem;
+}
+footer > p:nth-child(4) {
+  font-size: 10rem;
+}
